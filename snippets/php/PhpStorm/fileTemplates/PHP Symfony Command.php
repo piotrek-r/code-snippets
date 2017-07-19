@@ -6,13 +6,13 @@ namespace #[[$NAMESPACE$]]#;
 use Symfony\Component\Console;
 
 /**
- * Class #[[$NAME$]]#Command
+ * Class #[[$NAME$]]#
  * @package Console\Command\Data
  */
-class #[[$NAME$]]#Command extends Console\Command\Command
+class #[[$NAME$]]# extends Console\Command\Command
 {
     /**
-     * #[[$NAME$]]#Command constructor.
+     * #[[$NAME$]]# constructor.
      */
     public function __construct()
     {
