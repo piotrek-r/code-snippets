@@ -9,10 +9,10 @@ use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 
 /**
- * Class #[[$ActioName]]##[[$Middleware$]]#
+ * Class #[[$ActionName$]]##[[$Middleware$]]#
  * @package #[[$NAMESPACE$]]#
  */
-class #[[$ActioName]]##[[$Middleware$]]# implements MiddlewareInterface
+class #[[$ActionName$]]##[[$Middleware$]]# implements MiddlewareInterface
 {
     /**
      * @param ServerRequestInterface \$request
