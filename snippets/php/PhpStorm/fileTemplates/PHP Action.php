@@ -21,7 +21,7 @@ class #[[$ACTION$]]#Action implements MiddlewareInterface
      */
     public function process(ServerRequestInterface \$request, DelegateInterface \$delegate)
     {
-        // TODO Add the action logic here
+        #[[$END$]]#// TODO Add the action logic here
         return \$delegate->process(\$request);
     }
 }
