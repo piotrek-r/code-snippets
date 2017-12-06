@@ -18,7 +18,7 @@ final class ClientFactory
      */
     public function __invoke(ContainerInterface $container): Client
     {
-        $connectionConfiguration = $container->get('config')['db']['connection'];
+        $connectionConfiguration = $container->get('config')['db'][Client::class]['connection'];
         return new Client(
             $connectionConfiguration['uri'],
             $connectionConfiguration['uriOptions'],

@@ -21,6 +21,6 @@ final class DatabaseFactory
     {
         return $container
             ->get(Client::class)
-            ->selectDatabase($container->get('config')['db']['databases']['data']);
+            ->selectDatabase($container->get('config')['db'][Database::class]['databases']['data']);
     }
 }
